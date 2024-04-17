@@ -1,0 +1,16 @@
+flask
+tensorflow
+matplotlib
+seaborn
+numpy 
+pandas
+opencv-python
+scikit-learn
+xmltodict
+python-dotenv
+langchain_openai
+opencv-python
+scikit-image
+langchain
+openai
+flask-cors

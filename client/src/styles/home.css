@@ -1,0 +1,1120 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+  
+    
+    
+  }
+  
+  body {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+  }
+   
+
+  html {
+    
+  max-width: 100vw;
+
+    font-size: 1vw;
+   
+    
+
+}
+.flex{
+    display: flex;
+}
+
+
+
+
+/* infoheader */
+
+.infoBox {
+  overflow-y: hidden;
+    width: 100vw;
+    margin: auto;
+    /* background: rgb(59, 59, 227);
+    background: linear-gradient(48deg, rgba(59, 59, 227, 1) 43%, rgba(205, 205, 255, 1) 43%); */
+    /* background-color: #eeeaea; */
+    background: rgb(14, 14, 34);
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(252, 250, 250);
+
+
+}
+
+.infoBox i {
+    font-size: 1rem;
+    margin: 0.3rem 1rem;
+    color: rgb(241, 236, 236);
+}
+
+.infoBox p {
+    color: rgb(216, 212, 212);
+    /* font-weight: 300; */
+    height: 3rem;
+   
+
+}
+
+.infoBox .infoBox1 {
+    display: flex;
+}
+
+.infoBox .infoBox1 div {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 1rem 1rem;
+
+}
+.infoBox2{
+    display: flex;
+    margin-right: 3rem;
+    margin-top: 0.8rem;
+}
+
+/* header */
+nav{
+  padding: 0;
+
+  
+}
+
+.headerBox {
+  
+    margin: 0rem auto;
+
+  
+    width: 90vw;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+
+
+}
+.headerBox img{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+
+margin-right: 1.5rem;
+position: relative;
+top: -0.8rem;
+
+
+
+}
+
+.headerBox .logo{
+  margin-top: 0.1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.headerBox1 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 6rem;
+    
+    padding-top: 1rem;
+    position: relative;
+    top: 0.6rem;
+
+}
+
+.headerBox2 {
+
+    display: flex;
+    margin-top: 0.5rem;
+    position: relative;
+    top: 1.3rem;
+}
+
+
+.headerBox2 li {
+    list-style: none;
+    overflow: visible;
+
+}
+
+.headerBox2 li .liA {
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.headerBox3{
+  position: relative;
+    top: 1.2rem;
+}
+.headerBox .dropdown{
+  overflow: visible;
+}
+
+.headerBox3 button {
+    border: none;
+    outline: none;
+    background-color: aqua;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+.hidehnav{
+  display: none;
+}
+.headerBox2 li .liA:hover {
+
+    text-decoration: underline;
+    color: blue;
+}
+
+/* nav2  */
+.nav2box{
+  width: 100vw;
+  /* height: 40rem; */
+  padding: auto;
+  padding: 3rem 2rem;
+  /* margin-bottom: 3rem; */
+  background: rgb(14, 14, 34);
+}
+.nav2box li{
+  list-style: none;
+  margin-left: 3rem;
+ /* margin-bottom: 3rem; */
+ margin-top: 2rem;
+  color: rgb(243, 243, 246);
+
+
+}
+
+.nav2box li a{
+  text-decoration: none;
+  font-size: 3.9rem;
+  color: rgb(199, 199, 205);
+ 
+}
+.nav2box li a i {
+position: relative;
+top: 0.5rem;
+left: 3rem;
+}
+.nav2box li ul li {
+list-style: none;
+font-size: 3.6rem;
+margin-left: 2rem;
+margin-top: 1.5rem;
+}
+/* section1 */
+
+
+
+.slidePara{
+    
+    padding-left: 5rem;
+    padding-top: 10rem;
+    color: white;
+   
+    height: 50rem;
+  
+    
+}
+.slidePara p{
+    color: rgb(241, 239, 239);
+}
+.slidePara .para1{
+    width: 40rem;
+    font-size: 4rem;
+    font-weight: bold;
+
+
+}
+.mySlides{
+  height: 40rem;
+}
+
+
+.slidePara .para2{
+ font-size: 1.2rem;
+ margin-left: 0.2rem;
+}
+.slidePara .btn{
+    position: relative;
+    top: 1rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    width: auto;
+}
+
+/* section2  */
+.section2box{
+    position: relative;
+    top: 10rem;
+  
+}
+
+/* section3 */
+.section3box{
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(18, 18, 47);
+justify-content: space-between;
+padding: 7rem 15rem;
+
+
+
+}
+.section3box1{
+    width: 14rem;
+    height: 15rem;
+    /* background-color: rgb(245, 245, 245); */
+    border-radius: 1rem;
+    color: rgb(243, 244, 244);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section3box1 p{
+    text-align: center;
+    color: rgb(227, 227, 227);
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+.section3box1 div{
+    color: rgb(222, 222, 224);
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.section3box1 i{
+    color: #0d6efd;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    
+}
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .section3box1 div .span1{
+    animation: counter1 5s 1 forwards ease-in;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 2rem;
+  }
+  .section3box1 div .span2{
+    animation: counter2 5s 1 forwards ease-in;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 2rem;
+  }
+  .section3box1 div .span3{
+    animation: counter3 5s 1 forwards ease-in;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 2rem;
+  }
+  .section3box1 div .span4{
+    animation: counter4 5s 1 forwards ease-in;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 2rem;
+  }
+  .section3box1 div .span1::after {
+    content: counter(num);
+  }
+  .section3box1 div .span2::after {
+    content: counter(num);
+  }
+  .section3box1 div .span3::after {
+    content: counter(num);
+  }
+  .section3box1 div .span4::after {
+    content: counter(num);
+  }
+  @keyframes counter1 {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 100;
+    }
+  }
+  @keyframes counter2 {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 50;
+    }
+  }@keyframes counter3 {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 10;
+    }
+  }@keyframes counter4 {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 300;
+    }
+  }
+
+  @media screen and (max-width:900px) {
+     p , h1 , h2 ,h3 ,h4  {
+      overflow-y: hidden;
+    }
+   
+    
+    .infoBox {
+     
+      height: 4.5rem;
+      
+  }
+  .infoBox p {
+    color: rgb(216, 212, 212);
+   font-size: 1.4rem;
+   /* height: 5rem; */
+}
+.infoBox i{
+  margin-top: 0.4rem;
+  font-size: 1.3rem;
+}
+/* header */
+.headerBox{
+  height: 8rem;
+  
+}
+.w3-content::after {
+  
+  top: 12.3rem;
+
+}
+.headerBox a{
+  font-size: 2rem;
+}
+.headerBox1{
+  position: relative;
+  top: 2rem;
+}
+.headerBox2{
+  position: relative;
+  top: 2.4rem;
+
+}
+.headerBox3{
+  position: relative;
+  top: 2.2rem;
+}
+.headerBox2 li .liA {
+  
+  font-size: 1.4rem;
+  
+}
+.headerBox3 button {
+ 
+  width: 13rem;
+  height: 4rem;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+  }
+  @media screen and (max-width:800px) {
+    .infoBox {
+     
+      height: 7rem;
+      padding: 1rem;
+      
+  }
+  .infoBox .infoBox1  div{
+    overflow-y: hidden;
+  }
+  .infoBox p {
+    color: rgb(216, 212, 212);
+   font-size: 2rem;
+}
+.infoBox i{
+  margin-top: 0.9rem;
+  font-size: 1.6rem;
+}
+/* navbar */
+    .hidehnav{
+      display: block;
+    }
+    .hidemainnav{
+      display: none;
+    }
+   .hbnavbox{
+    margin: 0 auto;
+    display: flex;
+    padding: 1rem;
+    padding-top: 1.8rem;
+    
+    height: 11rem;
+    width: 90vw;
+    background-color: #fff;
+    justify-content: space-between;
+    overflow-y: hidden;
+
+   }
+   .hbnavbox img{
+        width: 7.5rem;
+        height:7.5rem;
+        border-radius: 50%;
+        margin-right: 1rem;
+   }
+   .hbnavbox .headerBox1{
+    position: relative;
+    top: -1rem;
+    height: 10rem;
+   }
+   .hbnavbox .headerBox1 p{
+    font-size: 3.3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+
+   }
+   .w3-content{
+    height: 50rem;
+   }
+   .w3-content .mySlides{
+    height: 50rem;
+   }
+   .w3-content .mySlides img{
+    height: 50rem;
+   }
+
+  .slidePara{
+    margin-top: 0rem;
+  }
+  .slidePara .para1 {
+    width: 50rem;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.slidePara .para2 {
+  font-size: 1.7rem;
+  margin-left: 0.2rem;
+}
+.slidePara .btn {
+position: relative;
+top: 2rem;
+margin-right: 1rem;
+font-size: 2rem;
+width: auto;
+}
+  }
+  @media screen and (max-width:700px) {
+    .infoBox .infoBox1 p span{
+      display: none;
+    }
+    .infoBox .infoBox2 .flex {
+      display: none;
+    }
+    .infoBox .infoBox2 i{
+      font-size: 2.2rem;
+    }
+    .w3-content{
+      height: 65rem;
+     }
+     .w3-content .mySlides{
+      height: 65rem;
+     }
+    
+     
+  .hbnavbox{
+    margin: 0 auto;
+    display: flex;
+    padding-top: 2rem;
+    
+    height: 12rem;
+  
+  
+   }
+   .hbnavbox img{
+        width: 7.5rem;
+        height:7.5rem;
+        border-radius: 50%;
+        margin-right: 1.5rem;
+   }
+   .hbnavbox .headerBox1 p{
+    font-size: 3.2rem;
+    margin-top: 1.3rem;
+    font-weight: bold;
+  
+   }
+   .slidePara{
+    margin-top: 12rem;
+   }
+   .slidePara .para1{
+    width: 70rem;
+    font-size:7rem ;
+   }
+   .slidePara .para2{
+    font-size:2.5rem ;
+   }
+   .slidePara .btn{
+    font-size: 2.5rem;
+   }
+  }
+  @media screen and (max-width:600px) {
+   
+    .infoBox .infoBox1 p span{
+      display: none;
+    }
+    .infoBox .infoBox2 .flex {
+      display: none;
+    }
+    .infoBox .infoBox2 i{
+      font-size: 2.4rem;
+    }
+    .infoBox{
+      height: 11rem;
+      padding-top: 1.9rem;
+    }
+    .infoBox .infoBox1  div{
+      overflow-y: hidden;
+    }
+    .infoBox .infoBox1 p{
+      font-size: 2.7rem;
+      height: 6rem;
+     
+    }
+    .infoBox .infoBox1 i{
+      font-size: 2.5rem;
+      width: 3.5rem;
+      margin-top: 1.6rem;
+    }
+
+    .infoBox .fa-linkedin-in{display: none;}
+    .hbnavbox{
+      margin: 0 auto;
+      display: flex;
+      padding: 0.8rem;
+      
+      height: 10rem;
+      overflow-y: hidden;
+    
+  
+     }
+     .hbnavbox img{
+          width: 7.3rem;
+          height:7.3rem;
+          border-radius: 50%;
+          margin-right: 1.5rem;
+     }
+     .hbnavbox .headerBox1 p{
+      font-size: 2.8rem;
+      margin-top: 1.3rem;
+      font-weight: bold;
+  
+     }
+     
+  .slidePara {
+    margin-top: 10rem;
+}
+  }
+  @media screen and (max-width:500px) {
+    .infoBox .infoBox1 p span{
+      display: none;
+    }
+    .infoBox .infoBox2 .flex {
+      display: none;
+    }
+    .infoBox .infoBox2 i{
+      font-size: 2.4rem;
+    }
+    .infoBox{
+      height: 12.5rem;
+      padding-top: 2.3rem;
+    }
+    .infoBox .infoBox1 p{
+      font-size: 3.3rem;
+    }
+    .infoBox .infoBox2 i{
+      font-size: 3.5rem;
+      margin-top: 1.7rem;
+      margin-right: 2rem;
+    }
+    .infoBox .fa-linkedin-in{display: none;}
+    
+  .slidePara {
+    
+    padding-left: 0rem;
+    padding-top: 15rem;
+    width: 80vw;
+height: 60rem;
+margin: auto;
+    display: flex;
+    
+    
+    flex-direction: column;
+   
+}
+.slidePara p{
+  text-align: center;
+}
+.slidePara .para1{
+  width: 70rem;
+  height: 30rem;
+  font-size: 8rem;
+  margin-left: 5rem;
+ 
+}
+
+.slidePara button{
+margin-bottom:2rem ;
+height: 10rem;
+}
+.hbnavbox{
+  margin: 0 auto;
+  display: flex;
+  padding-top: 2rem;
+  
+  height: 15rem;
+
+
+ }
+ .hbnavbox img{
+      width: 9rem;
+      height:9rem;
+      border-radius: 50%;
+      margin-right: 1.5rem;
+ }
+ .hbnavbox .headerBox1 p{
+  font-size: 3.2rem;
+  margin-top: 1.8rem;
+  font-weight: bold;
+
+ }
+ .w3-content{
+  height: 85rem;
+ }
+ .w3-content .mySlides{
+  height: 85rem;
+ }
+ 
+ .slidePara .para2{
+  font-size: 3rem;
+ }
+ .slidePara .btn{
+  font-size: 3.2rem;
+  margin-top:2rem ;
+ }
+  }
+
+
+  /* section3 responsiveness */
+  @media screen and (max-width:800px) {
+    
+    .section3box{
+      height: 170rem;
+    }
+  .section3box{
+    display: block;
+
+  }
+  .section3box1{
+    position: relative;
+    left: 30rem;
+    margin-bottom: 15rem;
+    margin-top: 2rem;
+    height: 24rem;
+  }
+     .section3box1 i{
+      font-size: 5rem;
+     }
+     .section3box1 p{
+      font-size: 2rem;
+     }
+     .section3box1 div span{
+      font-size: 50rem;
+     }
+     .section3box1 div span::after {
+      font-size: 7rem;
+      margin: 1rem 0;
+  }
+    .seperaterline{
+    width: 100vw;
+    height: 1rem;
+    background-color: #f9f9f9;
+    position: relative;
+    top: -8rem;
+    left: -15rem;
+
+   }
+    
+  }
+
+
+  @media screen and (max-width:250px) {
+    *{
+      overflow-x: hidden;
+    }
+  }
+
+  /* info */
+  @media screen and (max-width:400px) {
+    .infoBox{
+      display: none;
+    }
+    .hbnavbox{
+      height: 20rem;
+    }
+    .hbnavbox img{
+      width: 11.3rem;
+      height: 11.3rem;
+      margin-top: 2rem;
+    }
+    .hbnavbox .headerBox1{
+      position: relative;
+      top: -0.7rem;
+      height: 15rem;
+
+    }
+    .hbnavbox .headerBox1 p{
+      margin-top: 4rem;
+      font-size: 4.2rem;
+    }
+    .w3-content{
+      height: 100rem;
+     }
+     .w3-content .mySlides{
+      height: 100rem;
+     }
+     
+     .w3-content::after {
+      height: 100rem;
+      top: 20rem;
+     }
+  }
+
+  @media screen and (max-width:600px) {
+    *{
+      overflow-x: hidden;
+    }
+    .section3box{
+      height: 148rem;
+      padding:2rem;
+      margin: 0;
+    }
+  
+  .section3box1{
+    width: 100vw;
+    height: 35rem;
+    position: relative;
+    left: 0rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+     .section3box1 i{
+      font-size: 7rem;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+     }
+     .section3box1 p{
+      font-size: 4rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+     }
+     .section3box1 div span{
+      font-size: 60rem;
+      height: 15rem;
+      overflow-y: hidden;
+     }
+     .section3box1 div {
+      color: rgb(222, 222, 224);
+      font-size: 6rem;
+      height: 10rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      overflow-y: hidden;
+    }
+     .section3box1 div span::after {
+      font-size: 7rem;
+      margin: 1rem 0;
+      height: 10rem;
+      overflow-y: hidden;margin-bottom: 2rem;
+  }
+    .seperaterline{
+    width: 100vw;
+    height: 1rem;
+    background-color: #f9f9f9;
+    position: relative;
+    top: 0rem;
+    left: -2rem;
+
+   }
+
+  }
+  
+  @media screen and (max-width:450px) {
+    *{
+      overflow-x: hidden;
+    }
+    .section3box{
+      height: 168rem;
+      padding:2rem;
+      margin: 0;
+    }
+  
+  .section3box1{
+    width: 100vw;
+    height: 40rem;
+    position: relative;
+    left: 0rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+     .section3box1 i{
+      font-size: 7.5rem;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+     }
+     .section3box1 p{
+      font-size: 4.5;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+     }
+     .section3box1 div span{
+      
+      height: 15rem;
+      overflow-y: hidden;
+     }
+     .section3box1 div {
+      color: rgb(222, 222, 224);
+      font-size: 6rem;
+      height: 12rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      overflow-y: hidden;
+    }
+     .section3box1 div span::after {
+      font-size: 7rem;
+      margin: 1rem 0;
+      height: 10rem;
+      overflow-y: hidden;margin-bottom: 2rem;
+  }
+  
+
+  }
+
+  
+  @media screen and (max-width:400px) {
+    *{
+      overflow-x: hidden;
+    }
+    .section3box{
+      height: 175rem;
+      padding:2rem;
+      margin: 0;
+    }
+  
+  .section3box1{
+    width: 100vw;
+    height: 42rem;
+    position: relative;
+    left: 0rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+     .section3box1 i{
+      font-size: 8rem;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+     }
+     .section3box1 p{
+      font-size: 5rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+     }
+     .section3box1 div span{
+      
+      height: 15rem;
+      overflow-y: hidden;
+     }
+     .section3box1 div {
+      color: rgb(222, 222, 224);
+      font-size: 6rem;
+      height: 14rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      overflow-y: hidden;
+    }
+     .section3box1 div span::after {
+      font-size: 8rem;
+      margin: 1rem 0;
+      height: 10rem;
+      overflow-y: hidden;margin-bottom: 2rem;
+  }
+  
+
+  }
+  
+  @media screen and (max-width:330px) {
+    *{
+      overflow-x: hidden;
+    }
+    .section4box .sub-title::before {
+     
+      left: 21rem;
+      
+    }
+    .section3box{
+      height: 210rem;
+      padding:2rem;
+      margin: 0;
+    }
+  
+  .section3box1{
+    width: 100vw;
+    height: 50rem;
+    position: relative;
+    left: 0rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+     .section3box1 i{
+      font-size: 8.5rem;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+     }
+     .section3box1 p{
+      font-size: 5.5rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+     }
+     .section3box1 div span{
+      
+      height: 15rem;
+      overflow-y: hidden;
+     }
+     .section3box1 div {
+      color: rgb(222, 222, 224);
+      font-size: 6rem;
+      height: 18rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      overflow-y: hidden;
+    }
+     .section3box1 div span::after {
+      font-size: 9rem;
+      margin: 1rem 0;
+      height: 10rem;
+      overflow-y: hidden;margin-bottom: 2rem;
+  }
+  
+
+  }
+  
+  @media screen and (max-width:250px) {
+    *{
+      overflow-x: hidden;
+    }
+    .section3box{
+      height: 290rem;
+      padding:2rem;
+      margin: 0;
+    }
+  
+  .section3box1{
+    width: 100vw;
+    height: 70rem;
+    position: relative;
+    left: 0rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+     .section3box1 i{
+      font-size: 12rem;
+      margin-bottom: 2rem;
+      margin-top: 3rem;
+     }
+     .section3box1 p{
+      font-size: 7.5rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+     }
+     .section3box1 div span{
+      
+      height: 15rem;
+      overflow-y: hidden;
+     }
+     .section3box1 div {
+      color: rgb(222, 222, 224);
+      font-size: 6rem;
+      height: 25rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      overflow-y: hidden;
+    }
+     .section3box1 div span::after {
+      font-size: 13rem;
+      margin: 1rem 0;
+      height: 10rem;
+      overflow-y: hidden;margin-bottom: 2rem;
+  }
+  
+
+  }
+  
+  
+  @media screen and (max-width:350px) {
+    i{
+      overflow-y: hidden;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 700px) {
+   .section3box1{
+    width: 20rem;
+    height: 22rem;
+    overflow-y: hidden;
+    left: 25rem;
+
+   }
+   .section3box{
+    height: 168rem;
+    overflow-y: hidden;
+   }
+   .section3box1 div {
+    overflow-y: hidden;
+   }
+  }
+  
+  @media screen and (max-width:700px) {
+    i{
+      overflow-y: hidden;
+    }
+  }
+  
+  @media screen and (max-width:500px) {
+   
+    .slidePara{
+      height: 71rem;
+    }
+  }
+
+ 

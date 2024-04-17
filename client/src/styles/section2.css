@@ -1,0 +1,1069 @@
+.section2box h5,
+.section2box h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.section2box h2 {
+    font-size: calc(1.325rem + 0.9vw);
+}
+
+@media (min-width: 1200px) {
+    .section2box h2 {
+        font-size: 2rem;
+    }
+}
+
+.section2box h5 {
+    font-size: 1.25rem;
+}
+
+.section2box p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.section2box a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.section2box a:hover {
+    color: #0a58ca;
+}
+
+.section2box img {
+    vertical-align: middle;
+}
+
+.section2box .container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .section2box .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+    .section2box .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section2box .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .section2box .container {
+        max-width: 1320px;
+    }
+}
+
+.section2box .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.section2box .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width: 768px) {
+    .section2box .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+.section2box {
+    height: 55rem;
+    margin-bottom: 2rem;
+}
+
+.section2box img {
+    max-width: 100%;
+    /* height: auto; */
+    transform: scale(1);
+    border-radius: 5px;
+}
+
+.section2box h2,
+.section2box h5 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    color: #010C2A;
+}
+
+.section2box h2 {
+    font-size: 48px;
+    line-height: 1.25;
+}
+
+.section2box h5 {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.section2box .container {
+    max-width: 1200px;
+}
+
+.section2box .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.section2box a {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: unset;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.section2box a:hover {
+    color: #00B0FC;
+    transition: all 0.3s;
+}
+
+.section2box .container {
+    width: 100%;
+    margin: auto;
+}
+
+.section2box .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section2box .tf-button {
+    z-index: 3;
+    position: relative;
+    display: inline-block;
+    background: #7141B1;
+    color: #fff;
+    font-weight: 700;
+    padding: 0px 43px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    line-height: 60px;
+}
+
+.section2box .tf-button span {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    line-height: 1.31875;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.section2box .tf-button:hover {
+    background: #00B0FC;
+}
+
+.section2box .tf-button:hover span {
+    color: #fff;
+}
+
+.section2box .btn-effect1 .tf-button {
+    overflow: hidden;
+    border-radius: 30px;
+    position: relative;
+    background: transparent;
+}
+
+.section2box .btn-effect1 .tf-button::after {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    position: absolute;
+    border-radius: 30px;
+    content: "";
+    background: linear-gradient(246.06deg, #CF00FE -19.26%, #005DE0 87.05%);
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0;
+    z-index: -1;
+}
+
+.section2box .btn-effect1 .tf-button:hover::after {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background-size: 300% 100%;
+    background-position: 100% 100%;
+}
+
+.section2box .title-section {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section2box .title-section .sub-title {
+    padding-left: 70px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: #9000FF;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.section2box .title-section .sub-title::before {
+    position: absolute;
+    height: 4px;
+    width: 60px;
+    content: "";
+    left: 0;
+    top: 11px;
+    transform: rotate(-180deg);
+    background: linear-gradient(246.06deg, #00B0FC 15.37%, rgba(255, 255, 255, 0) 116.95%);
+}
+
+.section2box .title-section.style2 {
+    text-align: left;
+}
+
+.section2box .img-about {
+    position: relative;
+}
+
+.section2box .img-about .experience-box {
+    max-width: 290px;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #010C2A;
+    border-radius: 5px;
+    padding: 50px 40px 42px;
+}
+
+.section2box .img-about .experience-box .number-content {
+    margin-bottom: 20px;
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    color: #fff;
+}
+
+.section2box .img-about .experience-box p,
+.section2box .img-about .experience-box h5 {
+    color: #fff;
+}
+
+.section2box .img-about .experience-box h5 {
+    margin-bottom: 20px;
+}
+
+.section2box .img-about .experience-box p {
+    text-transform: capitalize;
+    padding-left: 20px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.section2box .img-about .experience-box p::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #C4C4C4;
+}
+
+.section2box .content-about .wrap-icon-box {
+    border-bottom: 1px solid #E8E8E9;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    margin-top: 44px;
+}
+
+.section2box .content-about .wrap {
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2box .content-about .wrap .img-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.section2box .content-about .wrap .img-box .img {
+    margin-right: 20px;
+}
+
+.section2box .content-about .wrap .img-box .name {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: "Roboto Slab", serif;
+    color: #1B1D21;
+    text-transform: capitalize;
+}
+
+.section2box .content-about .wrap .img-box p {
+    margin-bottom: 0;
+    color: #005DE0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.section2box .icon-box {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    border-radius: 5px;
+    background: #F6F6F6;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.section2box .icon-box.st2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: transparent;
+    padding: 0;
+}
+
+.section2box .icon-box.st2 .img {
+    min-width: 65px;
+    min-height: 63px;
+}
+
+.section2box .icon-box.st2 .img.style {
+    min-width: 65px;
+}
+
+.section2box .icon-box.st2 .desc {
+    margin-left: 14px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: "Roboto Slab", serif;
+    color: #010C2A;
+    text-transform: capitalize;
+}
+
+.section2box .wrap-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section2box .wrap-icon-box .icon-box {
+    width: 39%;
+    padding-right: 30px;
+}
+
+.section2box .img-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.section2box .tf-section {
+    padding: 120px 0;
+}
+
+.section2box .home1 .title-section .sub-title::before {
+    background: linear-gradient(246.06deg, #CF00FE 15.37%, rgba(255, 255, 255, 0) 116.95%);
+}
+
+.section2box .home1 .tf-section.tf-about .content-about {
+    padding: 2px 0 0 0;
+}
+
+.section2box .home1 .tf-section.tf-about .content-about .txt-transform {
+    padding-right: 50px;
+    margin-bottom: 26px;
+}
+
+.section2box .home1 .tf-section.tf-about .content-about .tf-button {
+    padding: 0 47px;
+}
+
+.section2box .tf-about .content-about {
+    padding: 2px 0 0 0;
+}
+
+.section2box .tf-about .content-about .txt-transform {
+    padding-right: 50px;
+    margin-bottom: 26px;
+}
+
+.section2box .tf-about .content-about .tf-button {
+    padding: 0 47px;
+}
+
+.section2box .tf-section {
+    position: relative;
+}
+
+.section2box .txt-r {
+    text-align: right;
+}
+
+.section2box .pb52 {
+    padding-bottom: 52px;
+}
+
+.section2box .pr70 {
+    padding-right: 70px;
+}
+
+.section2box .txt-transform {
+    text-transform: capitalize;
+}
+
+.section2box .title-section.mb29 {
+    margin-bottom: 29px;
+}
+
+.section2box .tf-animated-fadeup .content-about,
+.section2box .tf-animated-fadeup .effect-img-about,
+.section2box .tf-animated-fadeup .title-section {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 30px, 0);
+    transform: translate3d(0, 30px, 0);
+}
+
+.section2box .tf-animated-fadeup .content-about.tfanimated,
+.section2box .tf-animated-fadeup .effect-img-about.tfanimated,
+.section2box .tf-animated-fadeup .title-section.tfanimated {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+    webkit-transition: opacity 0.8s linear, -webkit-transform 0.8s ease-in-out;
+    transition: opacity 0.8s linear, -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out, opacity 0.8s linear;
+    transition: transform 0.8s ease-in-out, opacity 0.8s linear, -webkit-transform 0.8s ease-in-out;
+}
+
+.section2box .tf-animated-fadeleft .experience-box {
+    opacity: 0;
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+}
+
+.section2box .tf-animated-fadeleft .experience-box.tfanimated {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+    webkit-transition: opacity 0.8s linear, -webkit-transform 0.8s ease-in-out;
+    transition: opacity 0.8s linear, -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out, opacity 0.8s linear;
+    transition: transform 0.8s ease-in-out, opacity 0.8s linear, -webkit-transform 0.8s ease-in-out;
+}
+
+/* .section1img{
+    width: 40rem;
+    height: 35rem;
+    
+} */
+
+.section2box {
+    margin-top: 0;
+    position: relative;
+    top: 0rem;
+}
+
+.section2box .tf-section .addimg {
+    width: 40rem;
+    height: 32rem;
+    position: relative;
+    top: 5rem;
+    left: -2rem;
+    /* 
+    z-index: -1; */
+}
+.section2box button{
+    margin-left: 2rem;
+    width: 10rem;
+    height: 5rem;
+    background: #38139d;
+}
+@media screen and (max-width:1360px) {
+    .section2box{
+        padding-left: 8rem;
+    }
+  
+}
+
+@media screen and (max-width:1300px) {
+    .section2box {
+        margin-bottom: 0;
+        height: 70rem;
+    }
+
+    .section2box .effect-img-about {
+        width: 30rem;
+        height: 40rem;
+        position: relative;
+        right: 0rem;
+    }
+
+    .section2box .img-about .experience-box {
+        width: 20rem;
+        height: 23rem;
+        position: relative;
+        left: 10rem;
+        top: -15rem;
+        margin-bottom: 0;
+    }
+
+    .section2box .img-about .experience-box .number-content {
+        margin-bottom: 0;
+        line-height: 5.5rem;
+    }
+
+    .experience-box .number-content span {
+        font-size: 4rem;
+
+    }
+
+    .section2box .tf-about .content-about .txt-transform {
+        font-size: 1.2rem;
+    }
+
+}
+@media screen and (max-width:1200px) {
+    .section2box .tf-section .addimg {
+        width: 42rem;
+        height: 44rem;
+        position: relative;
+        top: 8rem;}
+}
+
+@media screen and (max-width:1150px) {
+    .section2box .tf-section {
+        padding: 71px 0;
+    }
+
+    .section2box {
+        margin-bottom: 0;
+        height: 80rem;
+    }
+
+    .section2box .effect-img-about {
+        width: 32rem;
+        height: 40rem;
+        position: relative;
+        top: 5rem;
+        left: 4rem;
+        right: 0rem;
+    }
+
+    .section2box .img-about .experience-box {
+        width: 20rem;
+        height: 28rem;
+        position: relative;
+        left: 4rem;
+        top: -15rem;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .section2box {
+        height: 110rem;
+    }
+
+    .allhidenbox {
+        display: none;
+        /* visibility: hidden; */
+    }
+
+    .section2box .row .tf-animated-fadeup {
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section2box .sub-title {
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 4rem;
+        margin-top: 0;
+    }
+
+    .section2box .title-section .sub-title::before {
+        left: 30rem;
+
+    }
+
+    .section2box .tf-section {
+        padding: 40px 0;
+    }
+
+    .section2box .title {
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    .section2box .tf-about .content-about .txt-transform {
+        font-size: 2.4rem;
+        margin-left: 6rem;
+        text-align: center;
+    }
+
+    .section2box .content-about .wrap-icon-box {
+        margin-left: 1rem;
+       
+        
+    }
+    .section2box .content-about .wrap-icon-box .icon-box {
+        margin-right: 5rem;
+        margin-left: 8rem;
+    }
+
+    .section2box .content-about .wrap-icon-box img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .section2box .content-about .wrap-icon-box .desc a {
+        font-size: 3rem;
+    }
+
+    .section2box .content-about .wrap-icon-box .icon-box {
+        margin-right: 3rem;
+    }
+
+    .section2box .content-about .wrap {
+        padding-right: 50px;
+        width: 79vw;
+
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4rem;
+    }
+
+    .section2box .tf-about .content-about .tf-button {
+        width: 25rem;
+        height: 10rem;
+        font-size: 2.5rem;
+    }
+
+    .section2box .tf-about .content-about .img-box img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 10rem;
+    }
+
+    .section2box .tf-about .content-about .content .name {
+        font-size: 2.8rem;
+        margin-top: 2rem;
+    }
+    .section2box button{
+        margin-left: 2rem;
+        width: 24rem;
+        height: 9rem;
+        background: #38139d;
+        font-size: 2.5rem;
+        border-radius: 1rem;
+    }
+   
+}
+
+@media screen and (max-width:650px) {
+    .section2box .content-about .wrap-icon-box {
+        width: 100vw;
+        padding-left: 5rem;
+    }
+    .section2box .content-about .wrap-icon-box .icon-box {
+        margin-right: 5rem;
+        margin-left: 6rem;
+    }
+
+}
+@media screen and (max-width:530px) {
+    .section2box .content-about .wrap{
+        margin-top: 10rem;
+    }
+    .section2box .content-about .wrap-icon-box .icon-box {
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+  
+}
+@media screen and (max-width:530px) {
+    .section2box {
+       padding: 0;
+       width: 95vw;
+       margin: auto;
+    }
+    .section2box .content-about .wrap-icon-box {
+      margin: 0;
+      width: 100vw;
+      padding-left: 10rem;
+    }
+    .icon-box .desc a {
+        font-size: 3.5rem;
+     
+    }
+    .section2box .wrap-icon-box .icon-box {
+        width: 50%;
+    }
+    .section2box .content-about .wrap-icon-box .icon-box{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .section2box {
+        height: 140rem;
+    }
+
+    .section2box .title-section .sub-title::before {
+        left: 25rem;
+
+    }
+
+    .section2box .title {
+
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    .section2box .tf-about .content-about .content .name {
+        font-size: 3rem;
+    }
+
+    .section2box .tf-about .content-about .txt-transform {
+        font-size: 2.8rem;
+        margin-left: 6rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .section2box .content-about .wrap-icon-box img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .section2box .content-about .wrap-icon-box .desc a {
+        font-size: 3.5rem;
+    }
+
+    .section2box .content-about .wrap {
+        /* padding-right: 60px; */
+        padding-left: 8rem;
+  
+        width: 95vw;
+
+
+    }
+
+    .section2box .tf-about .content-about .tf-button {
+        width: 25rem;
+        height: 14rem;
+        font-size: 3rem;
+    }
+
+    .section2box .tf-about .content-about .img-box img {
+        width: 12rem;
+        height: 12rem;
+        margin-left: 0rem;
+    }
+
+    .section2box .tf-about .content-about .content .name {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .section2box {
+        /* padding: 3rem; */
+
+        width: 95vw;
+        height: 180rem;
+        padding-left: 10rem;
+        overflow: hidden;
+
+    }
+
+    .section2box .tf-section {
+        padding-top: 5rem;
+    }
+
+    .section2box .content-about .wrap {
+        width: 100vw;
+        padding-left: 6rem;
+
+    }
+
+    .section2box .tf-about .content-about .img-box img {
+        width: 14rem;
+        height: 14rem;
+        margin-top: 2rem;
+    }
+
+    .section2box .tf-about .content-about .txt-transform {
+        margin-left: 10rem;
+
+        width: 98vw;
+        font-size: 4rem;
+    }
+
+    .section2box .content-about .wrap-icon-box {
+        margin-bottom: 6rem;
+        padding-bottom: 3rem;
+
+    }
+
+    .section2box .title-section .sub-title::before {
+        left: 20rem;
+    }
+
+    .section2box .tf-about .content-about .tf-button {
+        height: 16rem;
+    }
+
+    .section2box .content-about .wrap-icon-box img {
+        width: 15rem;
+        height: 15rem;
+    }
+    .section2box .title{
+        width: 100vw;
+        font-size: 7.9rem;
+        
+    }
+    .section2box{
+        padding-left: 4.5rem;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .section2box .tf-about .content-about .txt-transform {
+        margin-left: 14rem;
+
+        width: 98vw;
+    }
+    .section2box .title{
+        width: 100vw;
+        font-size: 7.5rem;
+        
+    }
+    .section2box {
+        padding-left: 6rem;
+        height: 215rem;
+    }
+
+    .section2box .content-about .wrap-icon-box {
+        flex-direction: column;
+    }
+
+    .section2box .content-about .wrap-icon-box .icon-box {
+
+        width: 90vw;
+        margin-left: 10rem;
+
+    }
+
+    .section2box .content-about .wrap-icon-box .icon-box img {
+
+        width: 17rem;
+        height: 17rem;
+
+    }
+
+    .section2box .content-about .wrap-icon-box .desc a {
+
+        font-size: 5rem;
+
+    }
+
+    .section2box .content-about .wrap {
+        flex-direction: column;
+    }
+    .section2box .title-section .sub-title::before {
+    width: 10rem;
+    left: 25rem;
+
+}
+    .section2box .tf-about .content-about .tf-button {
+        width: 70vw;
+        height: 20rem;
+      
+        text-align: center;
+        padding: 0;
+        font-size: medium;
+        position: relative;
+        left: 4rem;
+
+
+    }
+    .section2box .tf-about .content-about .img-box{
+        width: 70vw;
+        position: relative;
+        left: 4rem;
+       
+    }
+    .section2box .tf-about .content-about .img-box img{
+        width: 20vw;
+        height: 20rem;
+        margin-top: 5rem;
+        display: none;
+       
+    }
+    .section2box .tf-about .content-about .img-box .name{
+        font-size: medium;
+        margin-top: 5rem;
+        margin-left: 1rem;
+        position: relative;
+        left: -15rem;
+       
+    }
+    .section2box .tf-about .content-about .img-box .content .desc{
+        position: relative;
+        left: -10rem;
+    }
+    .section2box .tf-about .content-about .img-box .content .desc {
+        position: relative;
+        left: 6rem;
+    }
+    .section2box .tf-about .content-about .img-box .name {
+        font-size: medium;
+        margin-top: 5rem;
+        margin-left: 16rem;
+        position: relative;
+        left: -15rem;
+    }
+    .section2box button {
+        margin-left: 10rem;
+        width: 30rem;
+        height: 13rem;
+        font-size: 4rem;
+        
+       
+    }
+
+}
+@media screen and (max-width:300px) {
+    .section2box{
+        height: 245rem;
+    }
+}
+@media screen and (max-width:260px) {
+    *{
+        overflow-x: hidden;
+    }
+    .section2box{
+        height: 300rem;
+    }
+    .section2box .tf-about .content-about .img-box .content .desc {
+        position: relative;
+        left: 11rem;
+        top: -2rem;
+    }
+    .section2box .title{
+        width: 80vw;
+        font-size: 8rem;
+        margin-left: 15rem;
+    }
+    .section2box .tf-about .content-about .content .name {
+        width: 100vw;
+        margin-left: 20rem;
+    }
+    .section2box .tf-about .content-about .tf-button {
+        height: 27rem;
+    }
+}
+@media screen and (max-width:210px) {
+    .section2box{
+        height: 330rem;
+    }
+   
+}
+
+
+/*--------*/
+@media screen and (min-width:550px ) and (max-width:960px) {
+    .infoBox .infoBox1 p {
+        height: 6rem;
+    }
+}
+
+@media screen and (min-width:630px) and (max-width:850px) {
+    .section2box .tf-about .content-about .tf-button{
+      height: 10rem;
+      width: 28rem;
+    }
+ 
+  }
+  @media screen and (min-width:430px) and (max-width:630px) {
+    .section2box .tf-about .content-about .tf-button{
+      height: 20rem;
+      width: 28rem;
+    }
+    .section2box .tf-button{
+        line-height: 20px;
+    
+    }
+ 
+  }

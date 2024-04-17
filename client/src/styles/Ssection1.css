@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Roboto:wght@300&display=swap');
+
+.SsectionBox {
+    width: 80vw;
+    margin: 5rem auto;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+li{
+    list-style: none;
+}
+.plimg {
+    display: none;
+}
+
+.SsectionBox p {
+    margin-bottom: 5rem;
+}
+
+.SsectionBox1 {
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.SsectionBox1 div {
+    width: 40rem;
+    margin-right: 5rem;
+
+}
+
+.SsectionBox1 div p {
+    margin-bottom: 1rem;
+}
+
+.SsectionBox1 div h2 {
+    margin-bottom: 2rem;
+}
+
+.SsectionBox1 div .diffpara {
+
+    font-size: 1.06rem;
+    color: black;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+}
+
+.SsectionBox1 .notleadimg {
+    width: 40rem;
+    height: 30rem;
+    position: relative;
+    top: 5rem;
+}
+.SsectionBox1 .leadimg {
+    width: 40rem;
+    height: 30rem;
+    position: relative;
+    top: 5rem;
+}
+
+.SsectionBox .pointline {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.SsectionBox .pointline p {
+    font-size: 1.15rem;
+    font-weight: bold;
+    margin-top: 0.6rem;
+}
+
+.SsectionBox1 .pointline img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2rem;
+    position: relative;
+    top: 0;
+}
+.SsectionBox1 div div ul{
+    position: relative;
+    left: -2rem;
+}
+.SsectionBox1 div div ul li  i{
+    margin-right: 2rem;
+}
+/* Ssection2 css */
+.Ssection2box {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Ssection2box .lines {
+    width: 7rem;
+    height: 0.2rem;
+    background-color: orange;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Ssection2box .Ssection2box1 {
+    display: flex;
+    height: 20rem;
+}
+
+.Ssection2box .Ssection2boxsame {
+    width: 25rem;
+    height: 11rem;
+    box-shadow: 0 0 1rem black;
+    border-radius: 1rem;
+    margin: 1rem 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.uniquebox {
+    padding: 1rem;
+    background-color: rgb(130, 71, 184);
+    position: relative;
+    top: 3rem;
+    color: rgb(232, 230, 230);
+
+}
+
+.uniquebox h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.Ssection3box {
+    width: 83vw;
+    height: 5rem;
+
+    margin: auto;
+    background-color: rgb(66, 8, 152);
+
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 3rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
+
+}
+
+.Ssection3box p {
+    font-size: 1.08rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+.Ssection3box button {
+    outline: none;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: rgb(240, 240, 241);
+    position: relative;
+    left: 25rem;
+}
+
+@media screen and (max-width:1200px) {
+    .SsectionBox1 div {
+        width: 40rem;
+        margin-right: 5rem;
+
+    }
+
+    .SsectionBox1 div p {
+        font-size: 1.2rem;
+    }
+
+    .SsectionBox1 div h2 {
+
+        font-size: 3rem;
+    }
+
+    .SsectionBox1 div .diffpara {
+
+        font-size: 1.2rem;
+
+    }
+
+    .SsectionBox1 .leadimg {
+        width: 44rem;
+        height: 35rem;
+        position: relative;
+        top: 5rem;
+    }
+
+    .SsectionBox1 .pointline img {
+        width: 5rem;
+        height: 5rem;
+
+    }
+
+    .Ssection3box {
+        width: 85vw;
+        height: 6rem;
+        margin: 4rem auto;
+    }
+
+    .Ssection3box p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .SsectionBox1 div .diffpara {
+        font-size: 1.6rem;
+    }
+
+    .SsectionBox1 div p {
+        font-size: 1.6rem;
+    }
+
+    .Ssection2box1 {
+        margin-bottom: 4rem;
+    }
+
+    .Ssection2box .Ssection2boxsame {
+        width: 27rem;
+        height: 18rem;
+
+    }
+    .SsectionBox1 li{
+        font-size: 1.6rem;
+       list-style: none;
+    }
+    .SsectionBox1 .leadimg {
+        
+        width: 40rem;
+        height: 40rem;
+    }
+    .Ssection2box .Ssection2box1 {
+        margin-bottom: 8rem;
+    }
+    .Ssection2box .Ssection2boxsame {
+        width: 27rem;
+        height: 23rem;
+        margin-bottom: 2rem;
+    }
+    .Ssection2boxsame h3 {
+        font-size: 3rem;
+    }
+
+    .Ssection2boxsame p {
+        font-size: 1.65rem;
+    }
+    .Ssection3box button {
+        left: 18rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+   *{
+    overflow-x: hidden;
+   }
+    .SsectionBox {
+        margin-bottom: 10rem;
+        overflow: hidden;
+        
+    }
+
+    .SsectionBox1 .leadimg  {
+        /* display: none; */
+        position: relative;
+        left: 48rem;
+    top: -19rem;
+    width: 27rem;
+    height: 17rem;
+
+    }
+
+    .SsectionBox1 .pointline img {
+        display: block;
+    }
+
+    .SsectionBox1 {
+        display: block;
+        width: 80vw;
+        margin: auto;
+        height: 75rem;
+        overflow: hidden;
+    }
+
+    .SsectionBox1 div {
+        width: 80vw;
+
+    }
+
+    .SsectionBox1 div .sub-title {
+        width: 80vw;
+        text-align: center;
+        font-size: 2.4rem;
+    }
+
+    .SsectionBox1 div .sub-title::before {
+
+        left: 25rem;
+    }
+
+    .SsectionBox1 div h2 {
+        width: 80vw;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .SsectionBox1 div p {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .SsectionBox1 div .diffpara {
+        font-size: 2.5rem;
+    }
+
+    .SsectionBox1 div div {
+        width: 80vw;
+        margin: auto;
+        /* margin: 3rem auto; */
+        margin-top: 4rem;
+        
+    }
+    .SsectionBox1 div div ul {
+
+        /* text-align: center; */
+        
+        
+    }
+    .SsectionBox1 div div ul li{
+        font-size:2rem;
+    }
+
+    .SsectionBox1 div div .pointline {
+        width: 80vw;
+        margin: auto;
+        
+    }
+
+    .SsectionBox1 .pointline img {
+        display: block;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .SsectionBox1 .pointline p {
+        font-size: 2rem;
+    }
+
+    .plimg {
+
+        display: block;
+        position: relative;
+        top: -35rem;
+        left: 45rem;
+        overflow: hidden;
+    }
+
+    .plimg img {
+        
+
+
+        display: block;
+        width: 40rem;
+        height: 35rem;
+    }
+
+    .Ssection2box1 {
+        flex-direction: column;
+
+    }
+
+    .Ssection2box {
+        height: 100rem;
+    }
+
+    .Ssection2box h2 {
+        font-size: 4rem;
+    }
+
+    .Ssection2box .Ssection2boxsame {
+        width: 70vw;
+        height: 100rem;
+        margin: 3rem;
+        overflow: hidden;
+    }
+
+    .uniquebox {
+        top: 0;
+    }
+
+    .Ssection2box .Ssection2box1 {
+        height: 70rem;
+    }
+
+    .Ssection2boxsame h3 
+    ,.Ssection2boxsame .uniquebox h3{
+        font-size: 3rem;
+        margin-top: 0.8rem;
+        margin-left: 1rem;
+        margin-bottom: 0.8rem;
+        overflow: hidden;
+    }
+
+    .Ssection2boxsame p {
+        font-size: 1.9rem;
+        margin-left: 1rem;
+    }
+    .Ssection3box {
+        width: 85vw;
+        height: 12rem;
+        margin: 6rem auto;
+        overflow-y: hidden;
+    }
+    .Ssection3box p{
+        font-size: 1.7rem;
+    }
+    .Ssection3box button {
+       left: 1rem;
+       font-size: 2rem;
+      width: 12rem;
+      height: 3rem;
+    }
+    .SsectionBox1 div .sub-title::before {
+        left: 23rem;
+    }
+}
+@media screen and (max-width:600px) {
+    
+    .SsectionBox{
+        width: 95vw;
+    }
+
+    
+    .SsectionBox1 {
+        width: 95vw;
+        height: 100rem;
+        
+    }
+   
+    .SsectionBox1 div {
+        width: 95vw;
+
+    }
+
+    .SsectionBox1 div .sub-title {
+        width: 95vw;
+        /* text-align: center; */
+        font-size: 3rem;
+    }
+
+    .SsectionBox1 div .sub-title::before {
+
+        left: 25rem;
+    }
+
+    .SsectionBox1 div h2 {
+        margin-left: -14px;
+        width: 100vw;
+        font-size: 6.5rem;
+        text-align: center;
+    }
+
+    .SsectionBox1 div p {
+        font-size: 3.2rem;
+        text-align: center;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+
+    .SsectionBox1 div .diffpara {
+        font-size: 3.2rem;
+        
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+
+    .SsectionBox1 div div {
+        width: 100vw;
+        
+        margin: 3rem auto;
+        margin-top: 4rem;
+        padding-left: 3rem;
+        
+    }
+    .SsectionBox1 .leadimg  {
+        left: 60rem;
+        top: -26rem;
+
+    }
+
+    .SsectionBox1 div div  ul li{
+        font-size: 2.8rem;
+        
+    }
+    .SsectionBox1 div div  ul li::marker{
+        font-size: 2.8rem;
+        
+    }
+    .SsectionBox1 div div .pointline {
+        width: 90vw;
+        margin: auto;
+        
+    }
+
+    .SsectionBox1 .pointline img {
+        display: block;
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .SsectionBox1 .pointline p {
+        font-size: 2.7rem;
+    }
+
+    .plimg {
+
+        display: block;
+        position: relative;
+        top: -40rem;
+        left: 55rem;
+        overflow: hidden;
+    }
+
+    .plimg img {
+        
+
+
+        display: block;
+        width: 45rem;
+        height: 40rem;
+    }
+
+    .Ssection2box1 {
+        flex-direction: column;
+
+    }
+
+    .Ssection2box {
+        height: 160rem;
+    }
+
+    .Ssection2box h2 {
+        font-size: 6.5rem;
+        height: 10rem;
+        overflow: hidden;
+    }
+    .Ssection2box .lines {
+        width: 15rem;
+        height: 0.6rem;
+        background-color: orange;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+    .Ssection2box .Ssection2boxsame {
+        width: 72vw;
+        height: 144rem;
+        margin: 3rem;
+        overflow: hidden;
+    }
+
+    .uniquebox {
+        top: 0;
+    }
+
+    .Ssection2box .Ssection2box1 {
+        height: 150rem;
+    }
+
+    .Ssection2boxsame h3 
+    ,.Ssection2boxsame .uniquebox h3{
+        font-size: 5rem;
+        margin-top: 1.2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        overflow: hidden;
+    }
+
+    .Ssection2boxsame p {
+        font-size:3rem;
+        margin-left:2rem;
+      
+    }
+    .Ssection3box {
+        width: 98vw;
+        height: 34rem;
+        margin: 6rem auto;
+        overflow-y: hidden;
+        flex-direction: column;
+        padding-left: 0rem;
+    }
+    .Ssection3box p{
+        width: 81vw;
+        font-size: 2.7rem;
+        text-align: center;
+    }
+    .Ssection3box button {
+       left: 0rem;
+       top: 2rem;
+       font-size: 3rem;
+      width: 25rem;
+      height: 5rem;
+
+    }
+    
+}

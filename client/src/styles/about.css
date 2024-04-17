@@ -1,0 +1,547 @@
+
+
+.aboutbox .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: rgb(31, 31, 68);
+   
+}
+
+.aboutbox .fa-map-marker-alt:before {
+    content: "\f3c5";
+}
+
+.aboutbox .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.aboutbox .fas {
+    font-weight: 900;
+}
+
+
+.hideclass{
+    display: none;
+    
+    
+}
+
+
+
+
+.aboutbox ol {
+    padding-left: 2rem;
+}
+
+.aboutbox ol {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.aboutbox a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.aboutbox a:hover {
+    color: #0a58ca;
+}
+
+.aboutbox .container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:576px) {
+    .aboutbox  .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .aboutbox  .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .aboutbox  .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .aboutbox  .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width:1400px) {
+    .aboutbox  .container {
+        max-width: 1320px;
+    }
+}
+
+.aboutbox .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.aboutbox .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width:992px) {
+    .aboutbox    .col-lg-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+.aboutbox .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.aboutbox .breadcrumb-item+.breadcrumb-item {
+    padding-left: .5rem;
+}
+
+.aboutbox .breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: var(--bs-breadcrumb-divider, "/");
+}
+
+.aboutbox .breadcrumb-item.active {
+    color: #6c757d;
+}
+
+.aboutbox .float-start {
+    float: left !important;
+}
+
+
+.aboutbox a {
+    transition: color 400ms, background-color 400ms;
+}
+
+.aboutbox a,
+.aboutbox a:hover,
+.aboutbox a:focus,
+.aboutbox a:active {
+    text-decoration: none;
+}
+
+.aboutbox .row {
+    --bs-gutter-x: 1.875rem;
+}
+
+.aboutbox .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.aboutbox #sp-title {
+    min-height: 0;
+}
+
+.aboutbox .sp-page-title {
+    padding: 30px 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aboutbox .sp-page-title .sp-page-title-heading,
+.aboutbox .sp-page-title .sp-page-title-sub-heading {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    overflow: hidden;
+}
+
+.aboutbox .sp-page-title .sp-page-title-heading {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.aboutbox .sp-page-title .sp-page-title-sub-heading {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+.aboutbox .sp-page-title .breadcrumb {
+    background: 0 0;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.aboutbox .sp-page-title .breadcrumb>.active {
+    color: rgba(255, 255, 255, .8);
+}
+
+.aboutbox .sp-page-title .breadcrumb>li,
+.aboutbox .sp-page-title .breadcrumb>li+li:before,
+.aboutbox .sp-page-title .breadcrumb>li>a {
+    color: #fff;
+}
+
+.aboutbox .breadcrumb {
+    padding: .75rem 1rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+
+.aboutbox a {
+    color: inherit;
+}
+
+.aboutbox a:hover,
+.aboutbox a:focus,
+.aboutbox a:active {
+    color: #086ad7;
+}
+
+.aboutbox .sp-page-title {
+    background: #086ad7;
+}
+
+
+.aboutbox h2,
+.aboutbox h3 {
+    font-family: circular std, sans-serif;
+    margin: 0;
+    font-weight: 700;
+    color: #211e3b;
+}
+
+.aboutbox h2 {
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: -3px;
+}
+
+.aboutbox h3 {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.aboutbox a {
+    text-decoration: none;
+    font-weight: 600;
+    outline: none !important;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 32px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #211e3b;
+}
+
+.aboutbox li {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutbox li {
+    list-style: none;
+    position: relative;
+}
+
+.aboutbox a {
+    position: relative;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.aboutbox a:hover,
+.aboutbox a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
+.aboutbox .sp-page-title {
+    opacity: 1;
+    padding: 140px 0 160px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 450px;
+    background-size: cover;
+}
+
+.aboutbox .sp-page-title:before {
+    position: absolute;
+    left: 0;
+    content: "";
+    top: 0;
+    background: #211e3b;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    z-index: 1;
+}
+
+.aboutbox .sp-page-title .sp-page-title-heading {
+    position: relative;
+    z-index: 2;
+    font-size: 80px;
+    text-transform: capitalize;
+    line-height: 67px;
+    letter-spacing: -3px;
+    font-weight: 700;
+}
+
+.aboutbox .sp-page-title .sp-page-title-sub-heading {
+    position: absolute;
+    top: 70%;
+    -webkit-transform: translateY(-50%) rotate(-90deg) translateX(23%);
+    transform: translateY(-50%) rotate(-90deg) translateX(23%);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, .2);
+    font-size: 120px;
+    font-weight: 900;
+    letter-spacing: -.03em;
+    left: 110px;
+    z-index: 2;
+    opacity: .15;
+    text-transform: uppercase;
+}
+
+.aboutbox .sp-page-title .breadcrumb {
+    margin-top: 30px;
+    background: 0 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.aboutbox .breadcrumb>li.float-start {
+    display: none;
+}
+
+.aboutbox .breadcrumb>li>a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.aboutbox .breadcrumb>li>a:hover {
+    color: var(--maincolor);
+}
+
+.aboutbox .breadcrumb-item+.breadcrumb-item {
+    padding-left: .5rem;
+}
+
+.aboutbox .breadcrumb-item+.breadcrumb-item::before {
+    padding-right: .5rem;
+}
+
+.aboutbox .breadcrumb>.active span {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.aboutbox .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.aboutbox .fa-map-marker-alt:before {
+    content: "\f3c5";
+}
+
+.aboutbox .fas {
+    font-family: "font awesome 5 pro" !important;
+    font-weight: 900;
+}
+.aboutbox .breadcrumb>li>a {
+    font-size: 1.3rem;
+}
+
+
+.aboutbox .breadcrumb>.active span {
+    font-size: 1.3rem;
+}
+ 
+@media screen and (max-width:1200px) {
+    .aboutbox .sp-page-title .sp-page-title-heading {
+     
+        line-height: 65px;
+    }
+    .aboutbox .breadcrumb>li>a {
+        margin-top: 13rem;
+        margin-left: 1rem;
+        font-size: 3rem;
+    }
+    
+    
+    .aboutbox .breadcrumb>.active span {
+        font-size: 1.9rem;
+    }
+    .aboutbox .breadcrumb>li>a {
+        margin-top: 10rem;
+        margin-left: 0rem;
+        font-size: 1.9rem;
+    }
+    .aboutbox .container {
+        padding-left: 20px;
+}}
+@media screen and (max-width:700px) {
+    .aboutbox span , .aboutbox li{
+        overflow-y: hidden;
+    }
+    .aboutbox .breadcrumb>.active span {
+        overflow-y: hidden;
+        font-size: 2.8rem;
+    }
+    .aboutbox .breadcrumb>li>a {
+        margin-top: 10rem;
+        margin-left: 0rem;
+        font-size: 2.8rem;
+    }
+}
+@media screen and (max-width:500px) {
+   
+.aboutbox .sp-page-title:before {
+    position: absolute;
+    left: 0;
+    content: "";
+    top: 0;
+    background: #211e3b;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    z-index: 1;
+   
+}
+.aboutbox .sp-page-title{
+    height: 100rem;
+    overflow-y: hidden;
+}
+.aboutbox .breadcrumb>li>a {
+    margin-top: 10rem;
+    margin-left: 0rem;
+    font-size: 3.7rem;
+}
+
+.aboutbox .container {
+    padding-left: 35px;
+}
+.aboutbox .breadcrumb>.active span {
+    font-size: 3.7rem;
+}
+.aboutbox .sp-page-title {
+    opacity: 1;
+    padding: 130px 0 160px;
+    position: relative;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+   
+    background-position: 283px;
+}
+.aboutbox{
+    height: 100rem;
+    
+}
+
+}
+@media screen and (max-width:430px) {
+    .aboutbox .sp-page-title .sp-page-title-heading {
+    font-size: 15rem;
+    
+    }
+    .aboutbox{
+        overflow: hidden;
+        height: 105rem;
+    }
+    .aboutbox .sp-page-title{
+        height: 105rem;
+        overflow-y: hidden;
+    }
+    .aboutbox .sp-page-title {
+        overflow: hidden;
+        opacity: 1;
+        padding: 90px 0 160px;
+        position: relative;
+        background-repeat: no-repeat;
+       
+        background-size: cover;
+       
+        background-position: 283px;
+    }
+}
+
+@media screen and (max-width:370px) {
+   
+    .aboutbox{
+        overflow: hidden;
+        height: 125rem;
+    }
+    .aboutbox .sp-page-title{
+        height: 125rem;
+        overflow-y: hidden;
+    }
+}
+@media screen and (max-width:303px) {
+    .aboutbox{
+        overflow: hidden;
+        height: 135rem;
+    }
+    .aboutbox .sp-page-title{
+        height: 135rem;
+        overflow-y: hidden;
+    }
+}
+@media screen and (max-width:240px) {
+    .aboutbox{
+        overflow: hidden;
+        height: 130rem;
+    }
+}
+@media screen and (max-width:200px) {
+    .aboutbox{
+        overflow: hidden;
+        height: 140rem;
+    }
+}
+

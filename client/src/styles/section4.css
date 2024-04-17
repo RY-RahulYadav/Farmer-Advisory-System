@@ -1,0 +1,256 @@
+ .sub-title {
+     padding-left: 70px;
+     position: relative;
+     display: inline-block;
+     text-align: center;
+     color: #9000FF;
+     font-size: 16px;
+     line-height: 26px;
+     font-family: "Roboto Slab", serif;
+     font-weight: 500;
+     text-transform: capitalize;
+ }
+
+ .sub-title::before {
+     position: absolute;
+     height: 4px;
+     width: 60px;
+     content: "";
+     left: 0;
+     top: 11px;
+     transform: rotate(-180deg);
+     background: linear-gradient(246.06deg, #00B0FC 15.37%, rgba(255, 255, 255, 0) 116.95%);
+ }
+
+ .section4box {
+
+     margin: 4rem auto;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+     /* align-items: center; */
+ }
+
+ .section4box2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .section4box1 {
+     width: 73vw;
+     margin: auto;
+ }
+
+ .section4box1 h1 {
+     font-size: 4rem;
+     margin-bottom: 2rem;
+ }
+
+ .section4box2Box {
+     width: 21rem;
+     height: 23rem;
+     border-radius: 1rem;
+     background: #fbf8f8;
+     box-shadow: 0 0 1rem rgb(83, 83, 83);
+     margin: 3rem;
+     cursor: pointer;
+     margin-bottom: 4rem;
+ }
+ .section4box2Box img{
+    width: 21rem;
+    height: 12rem;
+    border-radius: 1rem 1rem 0 0;
+ }
+
+ .section4box2Box div {
+     display: flex;
+     /* justify-content: center; */
+     align-items: center;
+     margin-top: 0.5rem;
+ }
+
+ .section4box2Box div i {
+     font-size: 2rem;
+
+     margin-left: 1rem;
+     margin-right: 0.5rem;
+     color: rgb(25, 25, 81);
+ }
+
+ .section4box2Box div p {
+     font-size: 1.4rem;
+     font-weight: bold;
+     margin-left: 0;
+     color: rgb(25, 25, 81);
+     margin-top: 0.5rem;
+ }
+
+ .section4box2Box img {
+     height: 16rem;
+ }
+
+ .section4box2Box p {
+     font-size: 1.1rem;
+     font-weight: 500;
+     margin-left: 1rem;
+ }
+
+ 
+ .progress {
+     display: flex;
+     height: 1rem;
+     overflow: hidden;
+     font-size: .75rem;
+     background-color: #e9ecef;
+     border-radius: 6px;
+ }
+
+ .progress-bar {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     overflow: hidden;
+     color: #fff;
+     text-align: center;
+     white-space: nowrap;
+     background-color: #009CFF;
+     transition: width 0.6s ease;
+ }
+
+ @media (prefers-reduced-motion: reduce) {
+     .progress-bar {
+         transition: none;
+     }
+ }
+
+ .bg-primary {
+     background-color: #009CFF !important;
+ }
+
+ /*! CSS Used from: https://maahirinfotech.com/css/style.css */
+ .progress {
+     height: 5px;
+ }
+
+ .progress .progress-bar {
+     width: 0px;
+     transition: 3s;
+ }
+ .section4box1{
+    overflow-y: hidden;
+ }
+ @media screen and (max-width:800px) {
+    .section4box{
+        height: 170rem;
+        padding-top: 0rem;
+       display: block;
+       margin-top: 5rem;
+    }
+    .section4box2{
+        margin-top: 0;
+    }
+    .section4box1{
+        margin-bottom: 0;
+        margin-top: 1rem;
+      
+        width: 100vw;
+    }
+    .section4box .sub-title{
+        width: 100vw;
+        font-size: 3rem;
+       margin-left: 0;
+        text-align: center;
+        padding-left: 0;
+    }
+    .section4box .sub-title::before{
+        left: 28rem;
+    }
+   .section4box h1{
+    font-size: 5rem;
+    text-align: center;
+    
+
+    position: relative;
+    
+   }
+   .section4box2{
+    flex-direction: column;
+    height: 150rem;
+   }
+   .section4box2Box{
+    width: 70vw;
+    height: 45rem;
+    margin-top: 2rem;
+   }
+   .section4box2Box img{
+    width: 70vw;
+    height: 30rem;
+   }
+   .section4box2Box div i{
+    font-size: 5rem;
+    margin-left: 2rem;
+   }
+   .section4box2Box div p{
+    font-size: 3rem;
+   }
+   .section4box2Box p{
+    font-size: 2rem;
+    margin-left: 3rem;
+   }
+ }
+ @media screen and (max-width:550px) {
+   .section4box .sub-title::before {
+        position: absolute;
+        height: 4px;
+        width: 40px;
+       
+        left: 25rem;
+        margin-bottom: 3rem;
+        
+    }
+    .section4box .sub-title {
+        width: 100vw;
+        font-size: 4rem;
+        margin-left: 0;
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 3rem;
+    }
+    .section4box h1 {
+        font-size: 6rem;
+        margin-bottom: 5rem;
+    }
+    .section4box{
+        height: 230rem;
+    }
+
+    .section4box2{
+        height: 200rem;
+    }
+    .section4box2Box {
+        width: 75vw;
+        height: 70rem;
+        margin-top: 2.5rem;
+    }
+    .section4box2Box img {
+        width: 75vw;
+        height: 40rem;
+    }
+    .section4box2Box div i {
+        font-size: 7rem;
+        margin-left: 6rem;
+        margin-top: 2rem;
+    }
+    .section4box2Box div p {
+        font-size: 5rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .section4box2Box  p {
+        font-size: 3rem;
+        margin-left: 6rem;
+        margin-top: 1rem;
+    }
+ }

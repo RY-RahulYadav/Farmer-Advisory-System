@@ -1,0 +1,173 @@
+    body{
+        overflow-x: hidden;
+    }
+    .section6box{
+    
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 13rem;
+    
+    
+
+    }
+    .section6box .sub-title{
+        text-align: center;
+    }
+    .section6box1{
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section6box2{
+    
+    
+    
+        display: flex;
+        flex-wrap: wrap;
+    
+
+    }
+
+    .section6box2same{
+        width: 27rem;
+        height: 14rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 0.6rem black;
+    }
+    .section6box2same img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        margin: 1.2rem 2rem;
+        margin-right: 1rem;
+    }
+    .section6box2same div .parabox{
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column;
+        margin: 0;
+    }
+    .section6box2same  .parabox h3{
+    margin-left: 0.3rem;
+    margin-bottom: 0;
+        font-size: 1.3rem;
+        font-weight: bold;
+        
+    }
+    .section6box2same  .parabox p{
+        margin: 0rem 0;
+    }
+    .section6box2same p{
+        margin: 0rem 1rem;
+        font-size: 0.9rem;
+    }
+    .starbox{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .starbox span{
+    color: #FFD700;
+
+    }
+    @media screen and (max-width:800px) {
+        .section6box2{
+            flex-direction: column;
+        }
+        .section6box2same{
+            width: 70vw;
+            height: 30rem;
+        }
+        .section6box2 img{
+            width:8rem;
+            height: 8rem;
+            margin-top: 4rem;
+            margin-left: 5rem;
+        }
+        .section6box2 .parabox h3{
+            font-size: 4rem;
+            margin-top: 1.5rem;
+            margin-left: 2rem;
+        }
+        .section6box2 .parabox p{
+            margin-left: 2rem;
+            font-size: 2rem;
+        }
+        .section6box2 p{
+            font-size: 2rem;
+            margin-left: 2rem;
+        }
+        .starbox{
+            margin-top: 2rem;
+            margin-left: 2.5rem;
+        
+        }
+        .section6box1 .sub-title{
+            margin-top: 2rem;
+            font-size: 3rem;
+        }
+        .starbox span{
+            font-size: 2.5rem;
+        }
+        .section6box1 h1{
+            font-size: 5rem;
+            margin-bottom: 4rem;
+        }
+    }
+    
+    @media screen and (max-width:500px) {
+        .section6box2{
+            flex-direction: column;
+        }
+        .section6box2same{
+            width: 80vw;
+            height: 40rem;
+            margin-bottom: 3rem;
+        }
+        .section6box2 img{
+            width:10rem;
+            height: 10rem;
+            margin-top: 5rem;
+            margin-left: 7rem;
+        }
+        .section6box2 .parabox h3{
+            font-size: 4.5rem;
+            margin-top: 3rem;
+            margin-left: 3rem;
+        }
+        .section6box2 .parabox p{
+            margin-left: 3rem;
+            font-size: 3rem;
+            margin-top: 1rem;
+        }
+        .section6box2 p{
+            font-size: 3rem;
+            margin-left: 3rem;
+            margin-top: 1rem;
+        }
+        .starbox{
+            margin-top: 2rem;
+            margin-left: 2.5rem;
+        
+        }
+        .section6box1 .sub-title{
+            margin-top: 2rem;
+            font-size: 3.3rem;
+        }
+        .starbox span{
+            font-size: 3rem;
+        }
+        .section6box1 h1{
+            font-size: 6rem;
+            margin-bottom: 4rem;
+        }
+    }
