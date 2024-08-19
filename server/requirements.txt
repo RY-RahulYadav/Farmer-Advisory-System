@@ -18,3 +18,4 @@ xgboost
 langchain_community
 langchain_google_genai
 google-search-results
+Flask
