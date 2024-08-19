@@ -22,7 +22,7 @@ function Crop1() {
     const handleSubmit = async (e) =>{
         e.preventDefault()
         console.log(cropArr)
-        const data = await fetch("http://127.0.0.1:5000/crop_upload", {
+        const data = await fetch(`${import.meta.env.VITE_URL}/crop_upload`, {
             method: "POST",
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify({

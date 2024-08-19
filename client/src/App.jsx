@@ -12,6 +12,7 @@ import "./styles/contact.css"
 import "./styles/Ssection1.css"
 import About from './components/about';
 import Contact from './components/contact';
+import Service from './components/service';
 
 
 
@@ -33,6 +34,8 @@ function App() {
            <Route path="/service/crop_fire" element={<Crop2/>}/>
            <Route path="/service/crop_disease" element={<Crop3/>}/>
            <Route path="/contact" element={<Contact/>} />
+           <Route path="/service" element={<Service/>} />
+
           <Route path='*' element={<div style={{ height: '100vh' }}><h1 style={{ textAlign: 'center', position: 'relative', top: '40vh' }}>404 Page Not Found </h1></div>}> </Route>
 
         </Routes>

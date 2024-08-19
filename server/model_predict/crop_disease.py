@@ -1,10 +1,15 @@
+import os
 import tensorflow as tf
-import cv2 
+import cv2
 import numpy as np
 import keras.utils as image
 from keras.utils import load_img
 
-loaded_model = tf.keras.models.load_model('E:\crop\server\ml_model\crop_disease.h5')
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+model_path = os.path.join(current_directory, '..','ml_model', 'crop_disease.h5')
+model_path = os.path.normpath(model_path)
+loaded_model = tf.keras.models.load_model(model_path)
 
 def model_predict(img_path):
     print(img_path)

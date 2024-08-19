@@ -1,0 +1,9 @@
+.menu{
+    width: 23rem;
+    height: 38rem;
+    position: relative;
+    top: 0rem;
+    left: 3rem;
+    background-color: rgb(234, 231, 231);
+    border-radius: 2rem;
+}

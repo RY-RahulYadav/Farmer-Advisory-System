@@ -15,7 +15,7 @@ function Crop2() {
     const handleSubmit = async (e) =>{
         e.preventDefault()
         console.log(cropArr1)
-        const data = await fetch("http://127.0.0.1:5000/crop_fire", {
+        const data = await fetch(`${import.meta.env.VITE_URL}/crop_fire`, {
             method: "POST",
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify({

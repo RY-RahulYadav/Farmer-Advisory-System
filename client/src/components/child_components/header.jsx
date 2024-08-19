@@ -32,8 +32,8 @@ function Header() {
                         </a>
                         <ul class="dropdown-menu">
                             <li><Link class="dropdown-item" to="/service/crop_recommend">Crop Recommendation</Link></li>
-                            <li><Link class="dropdown-item" to="/Service/crop_fire">Crop Fire </Link></li>
-                            <li><Link class="dropdown-item" to="/Service/crop_disease">Crop Disease</Link></li>
+                            <li><Link class="dropdown-item" to="/service/crop_fire">Crop Fire </Link></li>
+                            <li><Link class="dropdown-item" to="/service/crop_disease">Crop Disease</Link></li>
                         </ul></li>
                     <li><Link className="liA" to="/contact">Contact</Link></li>
                 </div>
@@ -63,9 +63,9 @@ function Header() {
                 <li><Link to="/about"> About</Link></li>
                 <li onClick={updatedropdown}><a >Service<i class="fa-solid fa-caret-down"></i></a>
                     {opendropdown && <ul>
-                        <li><Link to="/service/bulk_sms">Bulk sms</Link></li>
-                        <li><Link to="/Service/bulk_whatsapp">Bulk Whatsapp</Link></li>
-                        <li><Link to="/Service/lead_gen">Lead Generation Device</Link></li>
+                        <li><Link to="/service/crop_recommend">crop recommend</Link></li>
+                        <li><Link to="/service/crop_fire">crop fire</Link></li>
+                        <li><Link to="/service/crop_disease"> crop disease</Link></li>
                     </ul>}
                 </li>
 

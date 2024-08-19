@@ -28,7 +28,7 @@ GOOGLE_API_KEY=os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def weather_fetch(city_name):
-    api_key = "f9eaa53dd081cff011d1ad568a446a4a"
+    api_key = os.getenv('WEATHER_API')
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
     complete_url = base_url + "appid=" + api_key + "&q=" + city_name

@@ -1,8 +1,13 @@
 import tensorflow as tf
 import cv2 
 import numpy as np
+import os
+current_directory = os.path.dirname(os.path.abspath(__file__))
 
-loaded_model = tf.keras.models.load_model('E:\crop\server\ml_model\soil_detection.h5')
+model_path = os.path.join(current_directory, '..' ,'ml_model', 'soil_detection.h5')
+model_path = os.path.normpath(model_path)
+
+loaded_model = tf.keras.models.load_model(model_path)
 
 def soil_output(img):
     img = cv2.imread(img)
