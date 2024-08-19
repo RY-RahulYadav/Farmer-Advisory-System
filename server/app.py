@@ -23,7 +23,7 @@ import google.generativeai as genai
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, origins=['http://localhost:5173'], methods=['GET', 'POST'])
+CORS(app, origins=['http://localhost:5173' , '*'], methods=['GET', 'POST'])
 GOOGLE_API_KEY=os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 
